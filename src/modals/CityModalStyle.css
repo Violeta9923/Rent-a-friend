@@ -1,0 +1,36 @@
+.city-modal-container {
+    position: absolute;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 71vw;
+    height: 89vh;
+    padding-left: 80px;
+    overflow-y: scroll;
+}
+
+.ad {
+    background-color: white;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    position: sticky;
+}
+
+.button {
+    bottom: 0;
+    position: sticky;
+    text-align: center;
+    left: 45%;
+    margin: 10px 100px;
+    background-color: #E2CCEE;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 12px;
+}

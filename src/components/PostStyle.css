@@ -1,0 +1,143 @@
+.post-container {
+    margin: 20px 0;
+    box-shadow: 0 0 20px gray;
+    border-radius: 12px;
+    font-family: 'Gentium Plus', serif;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px;
+    background-color: #E2CCEE;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.image {
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    padding: 1px;
+    margin: 6px 3px 3px;
+}
+
+.userName {
+    font-weight: bold;
+    padding: 10px 10px 4px;
+    align-items: center;
+}
+
+.left-header {
+    display: inline-flex;
+}
+
+.image-post {
+    height: 300px;
+    align-items: center;
+    margin: 10px auto;
+    display: block;
+}
+
+
+.css-dveeva-MuiSvgIcon-root :hover{
+    font-size: 30 !important;
+}
+
+.buttons {
+    padding: 10px 0 10px 5px;
+}
+
+.button-icon:hover {
+    transform:
+        scale(var(--ggs,1.3)) !important;
+}
+
+.description {
+    display: flex;
+}
+
+.comment-section {
+    overflow-y: scroll;
+    max-height: 100px;
+    scrollbar-width: 20px;
+    overflow-x: hidden;
+}
+
+.comment-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.comment-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-comment-name {
+    font-weight: bold;
+    margin: auto 3px;
+}
+
+.comment-date {
+    align-items: center;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+.user {
+    font-weight: bold;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+.post-form {
+    margin: 20px 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.left-form {
+    display: flex;
+    width: 100%;
+}
+
+.input-comm {
+    border: none !important;
+    outline: none;
+    margin: 0 0 0 10px;
+    width: 100%;
+}
+
+.post-button {
+    color: blue;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    margin-right: 10px !important;
+}
+
+.post-button:hover {
+    transform:
+        scale(var(--ggs,1.1));
+        color: blueviolet;
+}
+
+.post-button:disabled {
+    color: gray;
+    transform:
+        scale(var(--ggs,1));
+}
+
+.post-button:disabled:hover {
+    color: gray;
+    transform:
+        scale(var(--ggs,1)) ;
+}
+
+

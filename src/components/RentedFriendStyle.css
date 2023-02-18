@@ -1,0 +1,43 @@
+.rent-ad-container {
+    border-radius: 12px;
+    box-shadow: 0 0 20px gray;
+    cursor: pointer;
+    margin: 20px 80px 20px 0;
+    display: flex;
+    font-family: 'Gentium Plus', serif;
+}
+
+.rent-ad-profile-photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.rent-ad-profile-info {
+    margin: 40px auto auto 40px;
+}
+
+.rent-ad-profile-item {
+    display: flex;
+    color: gray;
+    padding: 5px;
+}
+
+.rent-ad-profile-item p {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.rented-friends-logo {
+    border-radius: 12px;
+    box-shadow: 0 0 20px gray;
+    width: 93%;
+    height: 100px;
+    background-position: 50%;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-color: #E2CCEE;
+    background-size: 20%;
+    background-image: url("C:\Users\Public\Documents\Licenta\Rent a friend\rent-a-friend\src\images\RAF.PNG");
+}

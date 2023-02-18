@@ -1,0 +1,121 @@
+.new-post-modal-container{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30000;
+}
+
+.new-post-modal-left-side{
+    background-image: url("C:\Users\Public\Documents\Licenta\Rent a friend\rent-a-friend\src\images\Rent a friend (1).png");
+    background-repeat: no-repeat;
+    background-color: #E2CCEE;
+    background-size: 70%;
+    display: inline-block;
+    height: 80vh;
+    top: 10vh;
+    left: 18%;
+}
+
+.request-right-side h3 {
+    margin-top: 40px;
+}
+
+.line {
+    background-color: #4A3667;
+    margin-bottom: 40px;
+}
+
+.new-post-modal-right-side{
+    display: inline-block;
+    padding: 40px 66px 0;
+    margin: 0 95px;
+    width: 60%;
+    background-color: whitesmoke;
+    height: 80vh;
+    margin-top: 10vh;
+}
+
+.form-horizontal .form-group {
+    margin-top: 20px;
+}
+
+.new-post-modal-right-side .btn {
+    color: #fff;
+    background: linear-gradient(to right, #4A3667, #E2CCEE);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    width: 30%;
+    padding: 9px 11px;
+    margin: auto auto 10px;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    display: block !important;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px #E2CCEE;
+    outline: none;
+    background: linear-gradient(45deg, #E2CCEE, #4A3667);
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-price {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.buttons {
+    display: flex;
+}
+
+.new-post-modal-right-side .cancel-btn {
+    background: transparent;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    width: 30%;
+    padding: 9px 11px;
+    margin: auto auto 10px;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    display: block !important;
+    border: solid 2px #4A3667;
+    color: #4A3667;
+}
+
+.cancel-btn:hover {
+    box-shadow: 0 0 10px #E2CCEE;
+    outline: none;
+    background: linear-gradient(45deg, #E2CCEE, #4A3667);
+}
+
+.post-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    margin: auto 60px 20px;
+}
+
+.post-photo-container {
+    display: block;
+    text-align: center;
+}
+
+.post-photo-container input {
+    width: 100px;
+}

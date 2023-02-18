@@ -1,0 +1,34 @@
+.requests-container {
+    box-shadow: 0 0 20px gray;
+    border-radius: 12px;
+    margin: 20px 80px 20px 0;
+
+    font-family: 'Gentium Plus', serif;
+}
+
+.requests-tab-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 4px #E2CCEE;
+}
+
+.requests-logo {
+    width: 100%;
+    height: 100px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: #E2CCEE;
+    background-size: 20%;
+    background-image: url("C:\Users\Public\Documents\Licenta\Rent a friend\rent-a-friend\src\images\RAF.PNG");
+}
+
+.requests-after-logo {
+    padding: 40px 30px 80px 30px;
+}
+
+.tab-item {
+    padding: 10px;
+    cursor: pointer;
+}

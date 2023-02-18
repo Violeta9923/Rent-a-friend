@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #E2CCEE;
+    position: sticky !important;
+    top: 0 !important;
+    width: 100%;
+    height: 56px;
+    z-index: 1000;
+    overflow: hidden !important;
+    font-family: 'Gentium Plus', serif;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    font-size: 26px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.logout-button {
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    color: whitesmoke !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: #E2CCEE;
+}
+
+.right-header {
+    display: flex;
+}
+
+.logout-button {
+    cursor: pointer;
+    margin: 0 40px;
+    font-weight: bold;
+}

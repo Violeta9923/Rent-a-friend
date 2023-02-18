@@ -1,0 +1,10 @@
+.disabled-container{
+    background: rgba(0, 0, 0, 0.01);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 99999999999;
+    overflow: hidden;
+    font-family: 'Gentium Plus', serif;
+}

@@ -1,0 +1,31 @@
+.about-container {
+    border-radius: 12px;
+    box-shadow: 0 0 20px gray;
+    height: 600px;
+    margin-right: 90px;
+    margin-top: 20px;
+    font-family: 'Gentium Plus', serif;
+}
+
+.about-logo {
+    width: 100%;
+    height: 100px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: #E2CCEE;
+    background-size: 20%;
+    background-image: url("C:\Users\Public\Documents\Licenta\Rent a friend\rent-a-friend\src\images\RAF.PNG");
+}
+
+.about-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+.about-item {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}

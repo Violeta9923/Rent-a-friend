@@ -1,0 +1,63 @@
+.rent-ad-container {
+    border-radius: 12px;
+    box-shadow: 0 0 20px gray;
+    cursor: pointer;
+    margin: 20px 80px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gentium Plus', serif;
+}
+
+.rent-ad-profile-photo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.rent-ad-profile-info {
+    margin: 40px auto auto 40px;
+}
+
+.rent-ad-profile-item {
+    display: flex;
+    color: gray;
+}
+
+.first p {
+    padding-left: 27px !important;
+}
+
+.second p{
+    padding-left: 35px !important;
+}
+
+.last p{
+    padding-left: 10px !important;
+}
+
+.rent-ad-profile-item p {
+    font-weight: bold;
+}
+
+.rent-ad-left-side {
+    display: flex;
+}
+
+.delete-rent-ad-button {
+    text-align: center;
+    align-items: center;
+    margin-right: 80px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding: 20px 50px;
+    background-color: #E2CCEE;
+    border-radius: 12px;
+}
+
+.delete-rent-ad-button:hover {
+    background-color: white;
+    color: #E2CCEE;
+    border: solid 2px #E2CCEE;
+    margin-bottom: 96px;
+}

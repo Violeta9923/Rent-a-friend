@@ -1,0 +1,37 @@
+.ads-tab-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 4px #E2CCEE;
+    margin-right: 80px;
+    top: 190px;
+    position: sticky;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.rental-ads-stickey-header {
+    position: sticky;
+    top: 50px;
+    height: 100px;
+    background-color: white;
+}
+
+.rental-ads-logo {
+    border-radius: 12px;
+    width: 93%;
+    height: 100px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: #E2CCEE;
+    background-size: 20%;
+    position: sticky;
+    margin: 20px 0 0 0;
+    box-shadow: 0 0 20px gray;
+    background-image: url("C:\Users\Public\Documents\Licenta\Rent a friend\rent-a-friend\src\images\RAF.PNG");
+}
+
+.after-stickey-header {
+    margin-top: 70px;
+}

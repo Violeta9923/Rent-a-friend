@@ -1,0 +1,132 @@
+.register-container {
+    justify-content: center;
+    box-shadow: 0 0 20px gray;
+    width: 85%;
+    overflow: hidden !important;
+    align-self: center;
+    margin: 10px auto;
+    border: none;
+    padding: 0;
+    align-self: center;
+    border-top: solid 1px rgb(213, 213, 213);
+    padding: 40px 40px 100px;
+    font-family: 'Gentium Plus', serif;
+}
+
+.register-container form {
+    display: flex;
+}
+
+.register-container h2 {
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+}
+
+.register-container label {
+    margin: 10px 0 0;
+    font-weight: bold;
+    padding: 0 4px;
+
+}
+
+.register-error{
+    color: red;
+    font-size: 10px;
+}
+
+.register-container section {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.register-container .first-section {
+    width: 65%;
+}
+
+.register-container .second-section {
+    width: 35%;
+    margin-left: -50px;
+}
+
+.register-container form input {
+    padding: 15px 30px;
+    margin: 5px 0;
+    font-size: 15px;
+    border: solid 2px rgb(219, 219, 219);
+    border-radius: 10px;
+    width: 55%;
+    font-weight: bold;
+}
+
+.register-container form .multiple-input {
+    display: flex;
+    flex-direction: row;
+}
+
+.register-container form .multiple-input input {
+    padding: 10px;
+}
+
+.register-container form .multiple-input label {
+    padding: 10px;
+    border: solid 2px rgb(144, 144, 144);
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.register-container form .second-section input {
+    width: 100%;
+}
+
+.register-container form input[type="radio"]{
+    display: none;
+}
+
+.register-container form input[type="radio"]:checked + label {
+    border: solid 2px #4A3667;
+}
+
+.register-container form input[type="submit"] {
+    background-color: #E2CCEE;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.register-container form input[type="submit"]:hover {
+    background-color: white;
+    color: #E2CCEE;
+}
+.register-container form input[type="submit"]:active {
+    background-color: #4A3667;
+}
+
+.register-container form input[type="file"] {
+    border: none;
+    margin: 10px auto;
+    text-align-last: center;
+}
+
+.hidden {
+    -webkit-text-security: disc;
+}
+
+.register-photo {
+    margin: 40px auto;
+    border: solid 4px black;
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+    text-align: center;
+}
+
+.register-error {
+    margin: 10px auto;
+}
+
+.login-link {
+    margin: 10px auto;
+}
